@@ -1,1 +1,3 @@
-![alt text](docker-mac-symfony.jpg)
+<p align="center">
+  <img src="docker-mac-symfony.jpg" alt="Docker symfony"/>
+</p>

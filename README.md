@@ -1,1 +1,1 @@
-# Docker-for-Symfony
+![alt text](docker-mac-symfony.jpg)

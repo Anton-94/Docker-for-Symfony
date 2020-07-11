@@ -10,9 +10,9 @@ Docker4Symfony is a set of docker images optimized for symfony 5. Use `docker-co
 
 The Docker4Symfony stack consist of the following containers:
 
-| Service name           | Versions                | Image                              |
-| --------------------   | ------------------      | ---------------------------------- |
-| [nginx]                | latest                  | [nginx:latest]                            |
+| Service name           | Version                 | Image                              |
+| ---------------------- | ----------------------- | ---------------------------------- |
+| [nginx]                | latest                  | [nginx:latest]                     |
 | [php-fpm]              | 7.4                     | [php:7.4-fpm]                      |
 | [php-cli]              | 7.4                     | [php:7.4-fpm]                      |
 | [encore]               | 14                      | [node:14]                          |

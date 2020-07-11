@@ -1,4 +1,6 @@
-FROM node:latest
+FROM node:14
+
+WORKDIR /var/www/html
 
 ARG USER_ID
 
@@ -8,7 +10,6 @@ RUN yarn add \
     node-sass \
     --dev
 
-WORKDIR /var/www/html
 RUN usermod -u $USER_ID node
 USER node
 

@@ -47,4 +47,4 @@ RUN docker-php-ext-install fileinfo
 
 WORKDIR /var/www/html
 
-
+EXPOSE 9000

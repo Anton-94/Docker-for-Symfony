@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:14.5.0
 
 WORKDIR /var/www/html
 
@@ -12,5 +12,3 @@ RUN yarn add \
 
 RUN usermod -u $USER_ID node
 USER node
-
-CMD ["/node_modules/.bin/encore", "dev"]
